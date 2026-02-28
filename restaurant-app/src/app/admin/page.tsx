@@ -118,7 +118,7 @@ export default function AdminDashboard() {
                     <tr key={item.id} className="hover:bg-zinc-50/50 dark:hover:bg-zinc-800/30 transition-colors">
                       <td className="px-6 py-4">
                         <div className="font-medium text-zinc-900 dark:text-zinc-100">{item.name}</div>
-                        <div className="text-xs text-zinc-500 truncate max-w-[200px]">{item.description}</div>
+                        <div className="text-xs text-zinc-500 truncate max-w-50">{item.description}</div>
                       </td>
                       <td className="px-6 py-4">
                         <span className="inline-flex items-center rounded-md bg-zinc-100 dark:bg-zinc-800 px-2 py-1 text-xs font-medium text-zinc-600 dark:text-zinc-400">
